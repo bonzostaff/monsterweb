@@ -1,0 +1,191 @@
+
+
+/* Tête de page */
+header.header{
+    color: white;
+    padding: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+header.header img{
+    width: 150px;
+}
+
+header.header-text{
+    color: teal;
+    padding: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+header.header img{
+    width: 150px;
+}
+
+
+/* MENU NAVIGATION */
+nav.menu-nav ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+}
+
+div.barre-nav{
+    align-items: center;
+    text-align: center;
+}
+
+nav.menu-nav ul li.btn a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+}
+
+nav.menu-nav ul li.btn:hover a{
+    background-color: gray;
+    transition: 0.3s all;
+}
+/* MENU NAVIGATION PRESENTATION*/
+nav.menu-nav-text ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+}
+
+div.barre-nav-text{
+    align-items: center;
+    text-align: center;
+}
+
+nav.menu-nav-text ul li.btn a{
+    color: teal;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+}
+
+nav.menu-nav-text ul li.btn:hover a{
+    color: white;
+    background-color: gray;
+    transition: 0.3s all;
+}
+
+/* Contact */
+div.box-contact-left img{
+    width: 350px;
+    margin-right: 195px;
+}
+
+div.box-contact-right img{
+    width: 350px;
+    margin-left: 195px;
+}
+
+div.text-contact{
+    text-align: center;
+}
+
+section.les-contacts{
+    color: white;
+    text-align: center;
+    padding: 75px;
+    font-size: 25px;
+    display: flex;
+}
+
+/* Monster que j'ai */
+div.monster-g{
+    color: white;
+    text-align: center;
+}
+
+div.monster-g img{
+    width: 150px;
+    display: inline-block;
+    padding: 25px;
+}
+
+/* cannette */
+nav.cannette ul li.btnn{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav.cannette ul li.btnn a img{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    width: 150px;
+}
+
+nav.cannette ul li.btnn:hover a img{
+    background-color: gray;
+    transition: 0.3s all;
+}
+
+/* bouteille */
+nav.bouteille ul li.btnn{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav.bouteille ul li.btnn a img{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+    width: 150px;
+}
+
+nav.bouteille ul li.btnn:hover a img{
+    background-color: gray;
+    transition: 0.3s all;
+}
+
+.drink-name {
+    color: white;
+    font-weight: 450;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+div.text{
+    color: teal;
+    padding: 35px;
+    font-size: 35px;
+    display: inline-block;
+}
+
+div.text-pricip{
+    align-items: center;
+    text-align: center;
+
+}
+
+div.fin-page-text{
+    padding: 15px;
+    color: teal;
+}
+
+div.fin-page footer{
+    padding: 15px;
+    color: white;
+}
+
+
+/* Body ensemble des pages */
+body {
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+    animation: stars 30s linear infinite;
+  }
+  
+  @keyframes stars {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 798px -798px;
+    }
+} 

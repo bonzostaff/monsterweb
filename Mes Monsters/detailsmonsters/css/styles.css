@@ -1,0 +1,82 @@
+
+
+/* Header */
+
+header.header{
+    color: white;
+    padding: 35px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+header.header img{
+    width: 150px;
+}
+
+/* MENU NAVIGATION */
+nav.menu-nav ul li.btn{
+  list-style-type: none;
+  display: inline-block;
+}
+
+div.barre-nav{
+  align-items: center;
+  text-align: center;
+}
+
+nav.menu-nav ul li.btn a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+nav.menu-nav ul li.btn:hover a{
+  background-color: gray;
+  transition: 0.3s all;
+}
+
+/* Les Monsters */
+
+div.entier{
+  /* background-color: green; */
+  display: flex;
+  text-align: center;
+}
+
+div.monster-gauche img{
+  width: 250px;
+}
+
+div.texte-milieu{
+  color: white;
+  padding: 25px;
+
+}
+
+div.monster-droite img{
+  width: 250px;
+}
+
+div.fin-page footer{
+  padding: 15px;
+  color: white;
+}
+
+/* Body */
+
+body {
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+    animation: stars 30s linear infinite;
+  }
+  
+  @keyframes stars {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 798px -798px;
+    }
+} 
